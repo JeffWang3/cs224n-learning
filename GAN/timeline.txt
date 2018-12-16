@@ -1,0 +1,35 @@
+Generative Adversarial Nets  [stat.ML] 10 Jun 2014
+
+※ Generating Sentences from a Continuous Space    [cs.LG] 12 May 2016
+
+Connecting Generative Adversarial Networks and Actor-CriticMethods [cs.LG] 18 Jan 2017
+
+※ Adversarial Generation of Natural Language       [cs.CL] 31 May 2017
+将GAN用在了离散的output space上，并且用CGAN在sentiment和questions条件下生成句子
+批判者：https://www.zhihu.com/question/60902505
+LeCun和Yoav Goldberg的大战：
+https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/78994637
+Goldberg接连在Twitter和medium上言辞激烈地撰文称自己极其不喜欢这篇文章，并且以这篇文章为例，
+批判了Arxiv对稿件不加审核的制度，以及深度学习领域生成文本实验不靠谱的普遍现象。
+
+
+※ SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient  [cs.LG] 25 Aug 2017
+通过把word选择由softmax output选择变成policy选择，作者巧妙的避开了GAN和word embedding不兼容的问题。
+16年挂在arxiv上，17年被AAAI接收
+https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14344/14489
+
+
+
+Adversarial Learning for Neural Dialogue Generation [cs.CL] 24 Sep 2017
+
+Improved Training of Wasserstein GANs  [cs.LG] 25 Dec 2017
+
+※ MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE ______ [stat.ML] 1 Mar 2018
+讲清楚mode collapse
+
+https://www.jianshu.com/p/29948a5c5560
+为了让G学得更好一点，能不能让G多更新？
+- Goodfellow认为是G更新太多次会导致diversity不足，意思就是G独自更新的话容易mode collapse
+
+GAN in IR
+
